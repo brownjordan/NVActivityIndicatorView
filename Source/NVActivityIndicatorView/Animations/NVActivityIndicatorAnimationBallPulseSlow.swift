@@ -33,9 +33,9 @@ class NVActivityIndicatorAnimationBallPulseSlow: NVActivityIndicatorAnimationDel
         let circleSize: CGFloat = (size.width - 2 * circleSpacing) / 3
         let x: CGFloat = (layer.bounds.size.width - size.width) / 2
         let y: CGFloat = (layer.bounds.size.height - circleSize) / 2
-        let duration: CFTimeInterval = 3.0 //0.75
+        let duration: CFTimeInterval = 1.5 //0.75
         let beginTime = CACurrentMediaTime()
-        let beginTimes: [CFTimeInterval] = [0.48, 0.96, 1.44] // [0.12, 0.24, 0.36]
+        let beginTimes: [CFTimeInterval] = [0.24, 0.48, 0.72] // [0.12, 0.24, 0.36]
         let timingFunction = CAMediaTimingFunction(controlPoints: 0.2, 0.68, 0.18, 1.08)
         let animation = CAKeyframeAnimation(keyPath: "transform.scale")
         
