@@ -83,6 +83,7 @@
 		A367103020A1EE7500081069 /* NVActivityIndicatorViewAppExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F88C9DB1F10D0B200869231 /* NVActivityIndicatorViewAppExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A367103820A1EF6A00081069 /* NVActivityIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = A367103220A1EEEC00081069 /* NVActivityIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE1A6B661FDE9609008059F3 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A52F0DE1FCDBB8C009377B1 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift */; };
+		DA69B3B82162789E002157FA /* NVActivityIndicatorAnimationBallPulseSlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA69B3B72162789E002157FA /* NVActivityIndicatorAnimationBallPulseSlow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -130,6 +131,7 @@
 		4A52F0DE1FCDBB8C009377B1 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorAnimationCircleStrokeSpin.swift; sourceTree = "<group>"; };
 		A367103220A1EEEC00081069 /* NVActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVActivityIndicatorView.h; sourceTree = "<group>"; };
 		A367103320A1EEED00081069 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA69B3B72162789E002157FA /* NVActivityIndicatorAnimationBallPulseSlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorAnimationBallPulseSlow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -200,6 +202,7 @@
 				1F0326BE1F0D257700BF3358 /* NVActivityIndicatorAnimationSquareSpin.swift */,
 				1F0326BF1F0D257700BF3358 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift */,
 				4A52F0DE1FCDBB8C009377B1 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift */,
+				DA69B3B72162789E002157FA /* NVActivityIndicatorAnimationBallPulseSlow.swift */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -363,6 +366,7 @@
 				1F0326D81F0D257700BF3358 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift in Sources */,
 				1F0326D11F0D257700BF3358 /* NVActivityIndicatorAnimationBallScale.swift in Sources */,
 				1F0326E81F0D257700BF3358 /* NVActivityIndicatorView.swift in Sources */,
+				DA69B3B82162789E002157FA /* NVActivityIndicatorAnimationBallPulseSlow.swift in Sources */,
 				1F0326C91F0D257700BF3358 /* NVActivityIndicatorAnimationBallClipRotatePulse.swift in Sources */,
 				1F0326D71F0D257700BF3358 /* NVActivityIndicatorAnimationBallZigZag.swift in Sources */,
 				1F0326C51F0D257700BF3358 /* NVActivityIndicatorAnimationAudioEqualizer.swift in Sources */,

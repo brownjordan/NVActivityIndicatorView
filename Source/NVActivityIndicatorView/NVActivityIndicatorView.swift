@@ -79,6 +79,12 @@ public enum NVActivityIndicatorType: Int {
     case ballPulse
     /**
      BallGridPulse.
+     
+     - returns: Instance of NVActivityIndicatorAnimationBallPulseSlow.
+     */
+    case ballPulseSlow
+    /**
+     BallGridPulse.
 
      - returns: Instance of NVActivityIndicatorAnimationBallGridPulse.
      */
@@ -273,6 +279,8 @@ public enum NVActivityIndicatorType: Int {
             return NVActivityIndicatorAnimationBlank()
         case .ballPulse:
             return NVActivityIndicatorAnimationBallPulse()
+        case .ballPulseSlow:
+            return NVActivityIndicatorAnimationBallPulseSlow()
         case .ballGridPulse:
             return NVActivityIndicatorAnimationBallGridPulse()
         case .ballClipRotate:
