@@ -357,7 +357,7 @@ public typealias FadeOutAnimation = (UIView, @escaping () -> Void) -> Void
 
 // swiftlint:disable file_length
 /// Activity indicator view with nice animations
-public final class NVActivityIndicatorView: UIView {
+@objc public final class NVActivityIndicatorView: UIView {
     // swiftlint:disable identifier_name
     /// Default type. Default value is .BallSpinFadeLoader.
     public static var DEFAULT_TYPE: NVActivityIndicatorType = .ballSpinFadeLoader
@@ -454,7 +454,7 @@ public final class NVActivityIndicatorView: UIView {
 
      - returns: self, initialized using the data in decoder.
      */
-    public required init?(coder aDecoder: NSCoder) {
+    @objc public required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         backgroundColor = UIColor.clear
         isHidden = true
@@ -490,11 +490,11 @@ public final class NVActivityIndicatorView: UIView {
 
      - returns: A size indicating the natural size for the receiving view based on its intrinsic properties.
      */
-    public override var intrinsicContentSize: CGSize {
+    @objc public override var intrinsicContentSize: CGSize {
         return CGSize(width: bounds.width, height: bounds.height)
     }
 
-    public override var bounds: CGRect {
+    @objc public override var bounds: CGRect {
         didSet {
             // setup the animation again for the new bounds
             if oldValue != bounds && isAnimating {
@@ -506,7 +506,7 @@ public final class NVActivityIndicatorView: UIView {
     /**
      Start animating.
      */
-    public final func startAnimating() {
+    @objc public final func startAnimating() {
         isHidden = false
         isAnimating = true
         layer.speed = 1
@@ -516,7 +516,7 @@ public final class NVActivityIndicatorView: UIView {
     /**
      Stop animating.
      */
-    public final func stopAnimating() {
+    @objc public final func stopAnimating() {
         isHidden = true
         isAnimating = false
         layer.sublayers?.removeAll()
